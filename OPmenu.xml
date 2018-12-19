@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuDocument>
+	<menu>
+		<scriptItem id="cache_Out">
+        <label>Cache Out</label>
+        <scriptPath>/Users/fanzhang/git/fxpipeline/cacheOut.py</scriptPath>
+		</scriptItem>
+	</menu>
+</menuDocument>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuDocument>
+	<menu>
+		<scriptItem id="cacheOut">
+		<label>Cache Out</label>
+		<scriptPath>$HOME/my_scripts/makeWedge_v002.py</scriptPath>
+		</scriptItem>
+
+		<subMenu id="Do Wedge">
+			<label>Wedge_SG</label>
+			<scriptItem id="make_wedge">
+			<label>wedge_v001</label>
+			<scriptPath>$HOME/my_scripts/makeWedge.py</scriptPath>
+			</scriptItem>
+
+			<scriptItem id="remove_wedge">
+			<label>wedge_v002</label>
+			<scriptPath>$HOME/my_scripts/makeWedge_v002.py</scriptPath>
+			</scriptItem>
+
+			<scriptItem id="cacheOut">
+			<label>Cache Out</label>
+			<scriptPath>$HOME/my_scripts/makeWedge_v002.py</scriptPath>
+			</scriptItem>
+		</subMenu>
+	</menu>
+</menuDocument>
