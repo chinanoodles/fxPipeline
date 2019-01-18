@@ -16,7 +16,7 @@ class pproject:
 		'''
 		root = "/Users/fanzhang/PProject"
 		self.path_scene = "{ROOT}/{PROJ}/work/shot/{SCN}/{SCN}{SHOT}/efx/task/houdini".format(ROOT=root,PROJ=proj,SCN=scn,SHOT=shot)
-		self.path_cache = "{ROOT}/{PROJ}/output/shot/{SCN}/{SCN}{SHOT}/efx".format(ROOT=root,PROJ=proj,SCN=scn,SHOT=shot)
+		self.path_cache = "{ROOT}/output/{PROJ}/shot/{SCN}/{SCN}{SHOT}/efx".format(ROOT=root,PROJ=proj,SCN=scn,SHOT=shot)
 		self.path_anim = "{ROOT}/{PROJ}/publish/shot/{SCN}/{SCN}{SHOT}/ani/publish".format(ROOT=root,PROJ=proj,SCN=scn,SHOT=shot)
 		self.proj = proj
 		self.scn = scn
