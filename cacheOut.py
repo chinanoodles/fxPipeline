@@ -11,6 +11,7 @@ else:
 	fileCache.moveToGoodPosition()
 	fileCache.setInput(0,node)
 	fileCache.setColor(hou.Color(0,0.7,0.5))
-	cmd = "oppresetload {PATH} fileCache".format(PATH=fileCache.path())
+	cmd = "oppresetload {PATH} cacheout".format(PATH=fileCache.path())
 	hou.hscript(cmd)
+	print cmd
 
